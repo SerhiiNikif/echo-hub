@@ -1,0 +1,21 @@
+{
+  "name": "echo-hub",
+  "version": "1.0.0",
+  "description": "A simple messaging application demonstrating client-server communication using Node.js and TCP sockets.",
+  "scripts": {
+    "start-server": "node src/server/server.js",
+    "start-client": "node src/client/client.js",
+    "test": "mocha tests/**/*.js"
+  },
+  "keywords": [
+    "messaging",
+    "nodejs",
+    "sockets",
+    "communication"
+  ],
+  "author": "Serhii Nikiforenko <nikiforenko.serhii@gmail.com>",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.14.0"
+  }
+}
